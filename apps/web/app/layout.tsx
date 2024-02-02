@@ -1,15 +1,15 @@
-import pkg from '../package.json' assert { type: 'json' }
-import { Inter } from "next/font/google"
+import pkg from "../package.json" assert { type: "json" };
+import { Inter } from "next/font/google";
 
-import NavBar from './components/html/navbar/navbar-index'
-import Footer from "./components/html/footer/footer-index"
+import NavBar from "./components/html/navbar/navbar-index";
+import Footer from "./components/html/footer/footer-index";
 
-import "./globals.css"
+import "./globals.css";
 
 // import type { Metadata } from "next";
 
 type Props = {
-  children: React.ReactNode
+  children: React.ReactNode;
 };
 
 const inter = Inter({ subsets: ["latin"] });
@@ -48,7 +48,6 @@ const icons = [
 ];
  */
 export default function RootLayout({ children }: Props) {
-
   return (
     <html suppressHydrationWarning={true} lang="en">
       <head>
@@ -61,7 +60,12 @@ export default function RootLayout({ children }: Props) {
         <meta name="theme-color" content="#317EFB" />
         <meta name="generator" content="Globy Solutions Tech" />
         <meta name="description" content={pkg.description} />
-        <link rel="icon" type="image/svg+xml" href="/vercel.svg" style={{ height: 'auto', width: 'auto' }} />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/vercel.svg"
+          style={{ height: "auto", width: "auto" }}
+        />
         <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="'https://twitter.com/" />
@@ -80,7 +84,11 @@ export default function RootLayout({ children }: Props) {
         <meta name="theme-color" content="#ffffff" />
         <link rel="canonical" href={pkg.homepage} />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
         <script src="/registerSW.js" async />
         <script src="/color_theme.js" defer />
       </head>
