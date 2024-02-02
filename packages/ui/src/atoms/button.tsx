@@ -12,6 +12,7 @@ export type ButtonProps = React.DetailedHTMLProps<
 const Button = ({ children, type, ...props }: ButtonProps) => (
   <button
     {...props}
+    data-testid="button"
     type={type ?? "button"}
     aria-label={props.title}
     aria-labelledby={props.title}

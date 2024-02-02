@@ -1,9 +1,9 @@
 import { Link } from "..";
 
-export type CardProps = HTMLLinkElement & {
+export type CardProps = {
   className?: string;
   title: string;
-  children: React.ReactNode;
+  children: string;
   href: string;
 };
 const Card = ({ className, title, children, href }: CardProps): JSX.Element => (
