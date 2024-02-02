@@ -1,0 +1,73 @@
+{
+  "id": "/",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "display": "standalone",
+  "name": "Globy Solutions Tech",
+  "short_name": "Globy Solutions",
+  "start_url": "/",
+  "background_color": "#111827",
+  "lang": "en",
+  "scope": "/",
+  "description": "Globy Solutions is a software development company that is focused on creating comprehensive and customized solutions",
+  "theme_color": "#111827",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/favicons/Icon-29@2x.png",
+      "sizes": "29x29",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/favicons/Icon-40@2x.png",
+      "sizes": "40x40",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/favicons/Icon-44@2x.png",
+      "sizes": "44x44",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/favicons/Icon-48@2x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/favicons/Icon-50@2x.png",
+      "sizes": "50x50",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "/favicons/Icon-86@2x.png",
+      "sizes": "86x86",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "/favicons/Icon-44@2x.png",
+      "type": "image/png",
+      "sizes": "44x44",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicons/Icon-144@2x.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+     "src": "screenshots/Screenshot1.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Wonder Widgets"
+    }
+]
+}

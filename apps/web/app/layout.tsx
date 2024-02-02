@@ -1,9 +1,10 @@
 import pkg from '../package.json' assert { type: 'json' }
 import { Inter } from "next/font/google"
+
 import NavBar from './components/html/navbar/navbar-index'
 import Footer from "./components/html/footer/footer-index"
 
-import "@a/globals.css"
+import "./globals.css"
 
 // import type { Metadata } from "next";
 

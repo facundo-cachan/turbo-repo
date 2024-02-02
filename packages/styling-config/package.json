@@ -1,0 +1,14 @@
+{
+  "name": "@repo/styling-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "postcss.config.js",
+    "tailwind.config.ts"
+  ],
+  "devDependencies": {
+    "autoprefixer": "10.4.17",
+    "cssnano": "^6.0.3",
+    "tailwindcss": "3.4.1"
+  }
+}

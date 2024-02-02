@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-import config from "@repo/ui/styling-config/tailwind.config";
+import config from "@repo/styling-config/tailwind.config";
 
 export default config;

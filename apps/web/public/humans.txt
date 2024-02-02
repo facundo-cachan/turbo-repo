@@ -1,0 +1,7 @@
+Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section
+
+GitHub: https://github.com/facundo-cachan
+Twitter: https://twitter.com/facundo_cachan
+Personal: https://facundo-cachan.dev
+
+Checkout the https://humanstxt.org/ protocol to see how you should format your humans.txt file!
