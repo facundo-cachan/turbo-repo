@@ -89,7 +89,7 @@ export default function RootLayout({ children }: Props) {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <script src="/registerSW.js" async />
+        {/* <script src="/registerSW.js" async /> */}
         <script src="/color_theme.js" defer />
       </head>
       <body className={inter.className}>

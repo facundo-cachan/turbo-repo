@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Button from "../../atoms/button";
+
+import { Button } from "@repo/ui";
 
 const NavBarRight = () => {
   const [user_menu, setUserMenu] = useState<boolean>(false);

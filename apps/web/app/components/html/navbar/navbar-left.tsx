@@ -1,9 +1,9 @@
 "use client";
 
 import { memo } from "react";
-import Button from "../../atoms/button";
+import { Button } from "@repo/ui";
 
-import type { ButtonProps } from "../../atoms/button";
+import type { ButtonProps } from "@repo/ui";
 
 type ItemMenuProps = {
   href: string;

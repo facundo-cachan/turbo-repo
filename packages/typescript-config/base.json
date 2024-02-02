@@ -15,11 +15,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2022",
-    "paths": {
-      "@/*": ["./*"],
-      "@a/*": ["./app/*"],
-      "@c/*": ["./app/components/*"],
-    }
+    "target": "ES2022"
   }
 }
